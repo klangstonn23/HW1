@@ -10,7 +10,7 @@
       "description" : "Details of the genes from NCBI Nucleotide",
       "items": {
           "type": "object",
-          "description" : "Name, bp, and accession number of genes",
+          "description" : "Definition, abbreviation, bp, and accession number of genes",
            "required": [
             "definition",
             "abbreviation",
