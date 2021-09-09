@@ -12,7 +12,8 @@
           "type": "object",
           "description" : "Name, bp, and accession number of genes",
            "required": [
-            "name",
+            "definition",
+            "abbreviation",
             "bp",
             "accession number"
           ],
@@ -31,7 +32,12 @@
               "type": "string",
               "description" : "accession number of each gene",
            "examples" : ["NG_007084", "NG_029056"]
-            }
+            },
+             "definition": {
+              "type": "string",
+              "description" : "full name of sequence",
+           "examples" : ["Homo sapiens apolipoprotein E (APOE), RefSeqGene on chromosome 19; nuclear gene for mitochondrial product", "Homo sapiens signal peptide, CUB domain and EGF like domain containing 1 (SCUBE1), RefSeqGene on chromosome 22"]
+           }
           },
         }
       }
