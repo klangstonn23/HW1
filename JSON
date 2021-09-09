@@ -29,25 +29,7 @@
 }
 
 
-{
-"$schema": "http://json-schema.org/draft-07/schema#",
-"$id":
-"type": "object",
-"required": ["name", "bp", "accession number" ], 
-"properties" : {
-"name" : {
-"type" : "string", 
-"examples" : [ "Scube1", "Cux1" ]
-}
-"bp" : {
-"type" : "number", 
-"examples" : [ 10612, 153109 ], 
-}
-"accession number" : {
-"type" : "string", 
-"examples" : ["NG_007084", "NG_029056"]
-}
-}
-}
+
+   
 
 
