@@ -2,33 +2,52 @@
 "Genes" : [
 {
 "name" : "Cux1", 
-"bp" : "475056",
+"bp" : 475056,
 "accession number" : "NG_029476",
-"source" : "homo sapiens"
 }, 
 {
 "name" : "Slit2", 
-"bp" : "375637",
+"bp" : 375637,
 "accession number" : "NG_047105", 
-"source" : "homo sapiens"
 },
 {
 "name" : "Tnnc1", 
-"bp" : "9951",
+"bp" : 9951,
 "accession number" : "NG_008963",
-"source" : "homo sapiens"
 }, 
 {
 "name" : "Scube1", 
-"bp" : "153109",
+"bp" : 153109,
 "accession number" : "NG_029056",
-"source" : "homo sapiens"
 }, 
 {
 "name" : "APOE", 
-"bp" : "10612",
+"bp" : 10612,
 "accession number" : "NG_007084",
-"source" : "homo sapiens"
 }
 ]
 }
+
+
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+"$id":
+"type": "object",
+"required": ["name", "bp", "accession number" ], 
+"properties" : {
+"name" : {
+"type" : "string", 
+"examples" : [ "Scube1", "Cux1" ]
+}
+"bp" : {
+"type" : "number", 
+"examples" : [ 10612, 153109 ], 
+}
+"accession number" : {
+"type" : "string", 
+"examples" : ["NG_007084", "NG_029056"]
+}
+}
+}
+
+
